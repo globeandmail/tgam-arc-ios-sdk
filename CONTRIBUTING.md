@@ -129,7 +129,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/arcxp/
 
 Please make sure that you write tests for your changes.
 Please verify that existing tests pass for your changes.
-If you need help, please use Discussions to ask for help
+If you need help, please use [Discussions](https://github.com/orgs/arcxp/discussions?discussions_q=label:arcxp/mobile-sdk+) to ask for help
 
 ## Styleguides
 ### Commit Messages
