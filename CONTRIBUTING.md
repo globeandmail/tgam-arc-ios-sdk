@@ -19,6 +19,10 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [Your First Code Contribution](#your-first-code-contribution)
+  - [I Want To Contribute](#i-want-to-contribute)
+  - [Reporting Bugs](#reporting-bugs)
+  - [Suggesting Enhancements](#suggesting-enhancements)
+  - [Your First Code Contribution](#your-first-code-contribution)
 - [Styleguides](#styleguides)
 - [Commit Messages](#commit-messages)
 
