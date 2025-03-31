@@ -15,7 +15,11 @@ Before any of Arc XP's services can be used, a backend must be ready to connect 
 
 ## Mobile SDK
 
-Arc XP's mobile SDK allows access to Arc XP services and content, for Android and iOS applications. Access to the various services and media is available via a single SDK, documentation can be found around the following modules (commerce/content being optional).
+This project is open sourced, so feel free to add as a submodule to your android project.
+Alternatively, you can compile your own binary and include in your project.
+
+
+Arc XP's Mobile SDK allows access to Arc XP services and content, for Android and iOS applications. Access to the various services and media is available via a single SDK, documentation can be found around the following modules (commerce/content being optional).
 
 * **(Subscriptions)** Identity services for user management.
 * **(Content)** Fetching media to display in applications.
