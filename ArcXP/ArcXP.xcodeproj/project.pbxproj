@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6980DE712E0EFABB00677B8D /* OMSDK_Washpost.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE482C52861A00AFEDA3 /* OMSDK_Washpost.xcframework */; };
+		6980DE722E0EFABB00677B8D /* OMSDK_Washpost.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE482C52861A00AFEDA3 /* OMSDK_Washpost.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6980DE742E0EFC5A00677B8D /* ProgrammaticAccessLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF5676F299BA7DD00DDBEFB /* ProgrammaticAccessLibrary.xcframework */; };
+		6980DE752E0EFC5A00677B8D /* ProgrammaticAccessLibrary.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF5676F299BA7DD00DDBEFB /* ProgrammaticAccessLibrary.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6980DE762E0EFC5C00677B8D /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE572C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; };
+		6980DE772E0EFC5C00677B8D /* GoogleInteractiveMediaAds.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE572C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9A43A67B299315B7000B36E0 /* ArcXP.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9A43A67A299315B7000B36E0 /* ArcXP.docc */; };
 		9A43A681299315B7000B36E0 /* ArcXP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A43A676299315B7000B36E0 /* ArcXP.framework */; };
 		9A43A686299315B7000B36E0 /* ArcXPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A43A685299315B7000B36E0 /* ArcXPTests.swift */; };
@@ -230,9 +236,7 @@
 		9D5FF01A2B8D0390008DCB49 /* ArcXPContentClient+AsyncCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5FF0182B8D0390008DCB49 /* ArcXPContentClient+AsyncCalls.swift */; };
 		9DC980D12C2F038700866B18 /* ArcXPSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC980D02C2F038700866B18 /* ArcXPSDK.swift */; };
 		9DC980D22C2F038700866B18 /* ArcXPSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC980D02C2F038700866B18 /* ArcXPSDK.swift */; };
-		9DE2AE4B2C52861B00AFEDA3 /* OMSDK_Washpost.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE482C52861A00AFEDA3 /* OMSDK_Washpost.xcframework */; };
 		9DE2AE522C52879100AFEDA3 /* OMSDK_Washpost.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE482C52861A00AFEDA3 /* OMSDK_Washpost.xcframework */; };
-		9DE2AE582C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE572C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; };
 		9DE2AE592C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE572C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; };
 		9DE2AE5A2C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE572C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; };
 		9DE2AE5B2C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE572C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; };
@@ -414,7 +418,6 @@
 		9DF568E6299BB8F600DDBEFB /* ArcMediaPlayerView+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF568E5299BB8F600DDBEFB /* ArcMediaPlayerView+tvOS.swift */; };
 		9DF568EF299BB91900DDBEFB /* ArcXP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF568E0299BB82A00DDBEFB /* ArcXP.framework */; };
 		9DF568FA299BBFB700DDBEFB /* ArcMediaPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF567B9299BA81B00DDBEFB /* ArcMediaPlayerViewController.swift */; };
-		A569808F29F724E500603466 /* ProgrammaticAccessLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF5676F299BA7DD00DDBEFB /* ProgrammaticAccessLibrary.xcframework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A5CACB232A66D68C00D8603B /* ArcXPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CACB222A66D68C00D8603B /* ArcXPConstants.swift */; };
 		A5FC6D312A719725008CD2B0 /* ArcXPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CACB222A66D68C00D8603B /* ArcXPConstants.swift */; };
 		AC0B27BD2A7ACA370050316C /* PictureInPictureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B27BC2A7ACA370050316C /* PictureInPictureManager.swift */; };
@@ -448,6 +451,22 @@
 			remoteInfo = ArcXPtvOS;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6980DE732E0EFABB00677B8D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6980DE772E0EFC5C00677B8D /* GoogleInteractiveMediaAds.xcframework in Embed Frameworks */,
+				6980DE722E0EFABB00677B8D /* OMSDK_Washpost.xcframework in Embed Frameworks */,
+				6980DE752E0EFC5A00677B8D /* ProgrammaticAccessLibrary.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9A43A676299315B7000B36E0 /* ArcXP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArcXP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -697,9 +716,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A569808F29F724E500603466 /* ProgrammaticAccessLibrary.xcframework in Frameworks */,
-				9DE2AE4B2C52861B00AFEDA3 /* OMSDK_Washpost.xcframework in Frameworks */,
-				9DE2AE582C52882000AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */,
+				6980DE762E0EFC5C00677B8D /* GoogleInteractiveMediaAds.xcframework in Frameworks */,
+				6980DE712E0EFABB00677B8D /* OMSDK_Washpost.xcframework in Frameworks */,
+				6980DE742E0EFC5A00677B8D /* ProgrammaticAccessLibrary.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1566,6 +1585,7 @@
 				9A43A673299315B7000B36E0 /* Frameworks */,
 				9A43A674299315B7000B36E0 /* Resources */,
 				9D8875F62B76AE16000EF672 /* Swiftlint */,
+				6980DE732E0EFABB00677B8D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
